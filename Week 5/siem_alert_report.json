@@ -1,0 +1,30 @@
+[
+    {
+        "timestamp": "2026-07-11 09:45:22",
+        "rule_triggered": "SIG-001 (Brute-Force Detection)",
+        "severity": "HIGH",
+        "source_ip": "203.0.113.5",
+        "details": "IP address reached critical threshold of 5 consecutive authentication failures."
+    },
+    {
+        "timestamp": "2026-07-12 02:15:22",
+        "rule_triggered": "SIG-002 (Off-Hours Active Connection)",
+        "severity": "MEDIUM",
+        "source_ip": "198.51.100.44",
+        "details": "Successful authentication by User [NightShiftAdmin] during unauthorized off-hours window."
+    },
+    {
+        "timestamp": "2026-07-12 03:41:05",
+        "rule_triggered": "SIG-002 (Off-Hours Active Connection)",
+        "severity": "MEDIUM",
+        "source_ip": "45.33.22.112",
+        "details": "Successful authentication by User [admin] during unauthorized off-hours window."
+    },
+    {
+        "timestamp": "2026-07-12 03:41:05",
+        "rule_triggered": "SIG-003 (Suspicious Account Takeover Verification)",
+        "severity": "CRITICAL",
+        "source_ip": "45.33.22.112",
+        "details": "User [admin] logged in successfully after this specific source IP logged previous failures."
+    }
+]
